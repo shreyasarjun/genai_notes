@@ -1,0 +1,13 @@
+langchain
+cohere
+openai
+pymupdf
+pdfplumber
+pytesseract
+Pillow
+rank-bm25
+streamlit
+pytesseract
+langchain_experimental
+langchain-ollama
+langchain-community

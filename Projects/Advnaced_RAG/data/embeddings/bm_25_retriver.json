@@ -1,0 +1,12 @@
+{
+    "lc": 1,
+    "type": "not_implemented",
+    "id": [
+        "langchain_community",
+        "retrievers",
+        "bm25",
+        "BM25Retriever"
+    ],
+    "repr": "BM25Retriever(vectorizer=<rank_bm25.BM25Okapi object at 0x000001B9892A90D0>)",
+    "name": "BM25Retriever"
+}

@@ -1,0 +1,91 @@
+INFLUENCE_NARRATION_TEMPLATE = '''You are a highly skilled AI assistant. You will be given a summarized report of email conversations between a Project Manager (PM) or Customer Success Manager (CSM) and the customer of the company. Report highlights the key issues, actions taken, next steps, and general project or customer health. The goal of the report is to create concise, informative reports that capture all essential details of the conversation so that the manager can understand the status of the relationship, identify potential concerns, and plan for next actions effectively.
+
+You will be given the latest conversation happend on the email as well. Your task is to modify the existing report based on the latest conversation done on the same email subject and return the latest modifed report.
+
+summarized report: {email_conversation}
+latest conversation: {latest_conversation}
+Output:
+'''
+
+
+OVERALL_NARRATION_TEMPLATE = '''You are a highly skilled AI assistant tasked with reviewing and summarizing email conversations between a Project Manager (PM) or Customer Success Manager (CSM) and the customer of the company. Your objective is to condense the entire email exchange into a structured summary that highlights the key issues, actions taken, next steps, and general project or customer health. These summaries will be compiled into reports that will be sent to the PM/CSM's manager for quick, actionable insights.
+The goal is to create concise, informative reports that capture all essential details of the conversation so that the manager can understand the status of the relationship, identify potential concerns, and plan for next actions effectively.
+
+email conversation: {email_conversation}
+Output:
+'''
+
+
+OVERALL_SENTIMENT_TEMPLATE = '''You are an AI Expert in Domain of Customer Sentiment Analysis. You will be given the piece of customer conversation summary report. Analyze the report and provide the overall sentiment of the text. Focus on the language, tone, and context in text determine the sentiment accurately. The overall sentiment should reflect the general tone of the conversation, considering both the individual sentiments and how they interact with each other.
+
+Conversation Summary Report: {narration}
+
+Parameters to Calculate:
+1. Sentiment: Sentiment of the overall conversation. Sentiment will be one of either Neutral or Positive or Negative.
+2. Sentiment Score: Give score of the sentiment from 1 to 10 for Positive, -1 to -10 for Negative to where value represents the 1 or -1 means least and 10 or -10 means very high, for Neutral sentiment give it 0 always.
+3. What: List down the main points, what is Positive or Negative or Neutral in the given conversation
+4. Who: Who is more responsible for this sentiment, keep the name and email if only its present in the conversation
+5. Cause: provide the reason why sentiment Negative or Positive or Neutral.
+6. Action: What action could have been taken to avoid the Negative sentiment, How can we make it to positive from Neutral sentiment.
+7. Problem Solved: Is the Problem or issue mentioned by the customer has resolved? answer will be Yes or No.
+
+Output Format: provide the structured output in one single dictionary format only, dont keep unwanted text, new lines. keep the dictionary in below key and values format for your reference-
+
+"sentiment": "<Provide the sentiment Here>",
+"sentiment_score": "<Provide the Sentiment Score parameter value here>"
+"what_is_the_issue": "<keep the what parameter value here, only integer>",
+"who_is_responsible": "<keep the Who parameter value here>",
+"why_this_sentiment": "<keep the Cause parameter value here>",
+"preventive_action": "<keep the action parameter value here>",
+'Problem Solved': "<provide the answer here Yes or No>"
+
+Your Output:
+'''
+
+customer_say_template = '''You are an expert at analyzing email communications. Please review the following email conversation and provide an evaluation based on the listed parameters.
+
+Email Conversation:
+{conversations}
+
+Parameters to Evaluate:
+1. Poor or abrasive communication: Is the email conversation has Poor or abrasive expressions?
+2. Delayed Response: Are responses sent in a timely manner?
+3. Irresponsible or canned Response: Does the email conversation has the Irresponsible or canned Response?
+4. Bureaucratic responses: Is the email content has Bureaucratic responses or treatment of customers?
+5. Personalized Touch: Does the email show a personalized approach, addressing the recipient's specific needs or concerns?
+6. Empathy: Is the email content has Empathetic responses or treatment of customers?
+
+
+Your Task:
+Provide for each parameter Yes or No, where Yes is excellent and No is Poor and provide the structured output in one single dictionary format.
+Make sure you give the clean dictionary, do not keep any comments/or newline inside the dictionary. keep it key and proper value format.
+
+Output Format:
+keep the dictionary in below key and values format for your reference:
+'Poor or abrasive communication': "<provide the answer here>"
+'Delayed Response': "<provide the answer here>"
+'Irresponsible or canned Response': "<provide the answer here>"
+'Bureaucratic responses': "<provide the answer here>"
+'Personalized Touch': "<provide the answer here>"
+'Empathy': "<provide the answer here>"
+
+Your Output:
+'''
+
+
+keywords_category_template = '''You are an AI assistant tasked with analyzing customer email conversations and extracting key information. Given the following email conversation about a customer issue, please:
+
+1. Identify and list the main technical metadata/keywords related to the issue. dont keep dates, time, place names.
+2. Determine the category of the issue. Category should be among on of given in the list- [Windows, Linux, Network, Storage, Database, Virtualization, VDI, Backup, Security, Billing]
+   VDI means virtual Desktop Interface
+
+Email conversation:
+{conversations}
+
+Output Format: provide the structured output in one single dictionary format only, dont keep extra text or explaination. keep the dictionary in below key and values format for your reference-
+
+"Keywords": "<provide the keywords by comma separated>",
+"Category": "<provide the category here>"
+
+Your Output:
+'''

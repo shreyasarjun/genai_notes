@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+openai
+langchain_community
+langchain_core
+langchain_openai
+cohere
+pandas
+typing-extensions
+chromadb

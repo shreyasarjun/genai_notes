@@ -1,0 +1,133 @@
+Shreyas Bilikere
+
+
+shreyas.arjun007@gmail.com
+9916464703
+Bangalore, India
+https://www.linkedin.com/in/shreyas-bilikere-shantharaju-03671615b
+
+
+
+------------------------
+Generative AI Engineer
+
+
+------------------------
+Senior Generative AI Engineer with 12+ Years of Experience, including 4+ Years in LLMs, Machine Learning, NLP, and Deep Learning | Skilled Individual Contributor Delivering Impactful AI Solutions and Driving Innovation in Generative AI
+
+
+Skills
+------------------------
+-AI
+-Airflow
+-AWS
+-CICD
+-Data Engineering
+-Deep Learning
+-Docker
+-FastAPI
+-filebeat
+-Fine Tuning
+-Flask
+-GENAI
+-huggingface
+-Jenkins
+-Kafka
+-Kubernetes
+-Langchain
+-LLM
+-Machine Learning
+-NLP
+-ollama
+-Python
+-Statistics
+-Transformer
+
+
+
+Work Experience
+------------------------
+Senior AI Engineer
+Cloud4c Services Pvt Ltd
+05/2020 - Present
+Bangalore
+Designed and deployed generative AI solutions, leveraging advanced models to create innovative applications across diverse domains.
+Achievements/Tasks
+
+
+
+Senior Data Scientist
+Wipro Technologies
+05/2018 - 05/2020
+Bangalore
+Developed and deployed machine learning models with a focus on NLP and deep learning solutions
+Achievements/Tasks
+
+
+
+Python Developer
+CenturyLink India Pvt Ltd
+01/2016 - 04/2018
+Bangalore
+Built and deployed scalable applications as a Python developer, focusing on performance and reliability.
+Achievements/Tasks
+
+
+
+Automation Tester
+TATA Consultancy Services Ltd
+12/2012 - 12/2015
+Hyderabad
+Automated testing with Java, integrated CI/CD, designed test cases, and managed defect reporting.
+Achievements/Tasks
+
+
+
+
+
+
+Certificates
+------------------------
+AWS cloud practitioner
+
+
+
+
+
+Projects
+------------------------
+Advanced RAG Pipeline for SOP Interaction with Hybrid Search and Intelligent Generation
+- <b>Implemented an end-to-end Retrieval-Augmented Generation (RAG) pipeline</b>  to enable intelligent interaction with Standard Operating Procedure (SOP) documents. 
+- <b>Extracted and semantically chunked data</b>  from PDFs using Fitz, Tabula, and OCR, ensuring comprehensive data processing. 
+- <b>Developed a hybrid search mechanism</b>  leveraging OpenAI embeddings in Pinecone for dense vectors and BM25 in ElasticSearch for sparse vector retrieval. 
+- <b>Enhanced response generation and accuracy</b>  with Cohere AI-based reranking and GPT-4 integration for dynamic and context-aware interactions. 
+
+
+Dynamic Text-to-SQL System with Adaptive Few-Shot Retrieval and Schema-Aware Query Generation
+- <b>Designed and implemented a robust Text-to-SQL system</b>  enabling seamless and natural interaction with MySQL databases. 
+- <b>Integrated OpenAI embeddings and a Pinecone vector database</b>  to dynamically fetch relevant table schemas and few-shot examples for enhanced query accuracy. 
+- <b>Utilized GPT-4 for SQL query generation and validation</b> , ensuring precise execution and adaptability to database schema changes. 
+
+
+Aspect-Based Sentiment Analysis with LLM Prompt Engineering and Workflow Automation
+- <b>Implemented an aspect-based sentiment analysis system</b>  leveraging advanced LLM prompt engineering for accurate sentiment extraction and parameter identification from email interactions. 
+- <b>Integrated Exchange Team Email Parser API</b>  for seamless email ingestion, along with Python-based preprocessing and MongoDB for storing enriched email data. 
+- <b>Designed a robust pipeline</b>  to store sentiment analysis results in PostgreSQL, with automated workflows for negative sentiment notifications and ticket creation. 
+- <b>Enhanced accuracy and contextual understanding</b>  through advanced LLM prompt engineering, forming the core of the system’s effectiveness. 
+
+
+
+
+
+Education
+------------------------
+Bachelor Of Engineering[BE]
+Bangalore Institute of Technology
+07/2009 - 07/2012
+Bangalore
+Courses
+
+
+
+
+

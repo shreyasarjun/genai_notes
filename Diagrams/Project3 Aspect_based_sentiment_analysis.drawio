@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="mlo2Ziu8ndwHJIIv-uBA">
+    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WynkYv9-kwgR5AJz0QN2-1" target="WynkYv9-kwgR5AJz0QN2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-1" value="Exchange team email parser API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WynkYv9-kwgR5AJz0QN2-2" target="WynkYv9-kwgR5AJz0QN2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-2" value="Emails reading, cleaning and loading" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WynkYv9-kwgR5AJz0QN2-3" target="WynkYv9-kwgR5AJz0QN2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-3" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="182.5" width="115" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WynkYv9-kwgR5AJz0QN2-4" target="WynkYv9-kwgR5AJz0QN2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-4" value="Sentiment and parameters extraction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WynkYv9-kwgR5AJz0QN2-5" target="WynkYv9-kwgR5AJz0QN2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-5" value="Postgres DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="750" y="185" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-6" value="Trigger email and Ticket Creation for Negative Sentiments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="185" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-14" value="Python Code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-15" value="Cleaned email data&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="152.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-17" value="LLM Call" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-18" value="Sentiment Results data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="150" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-19" value="Python code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WynkYv9-kwgR5AJz0QN2-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WynkYv9-kwgR5AJz0QN2-20" value="Metadata loading" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

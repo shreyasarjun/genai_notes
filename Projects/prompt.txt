@@ -1,0 +1,43 @@
+Could you please provide robust and effective python code for end to end RAG llm app for chat with documents with following specification and use following mentioned technology ,skills, tools
+
+1. Query Construction
+Technology: Self-query Retriever
+Automatically derive metadata filters (e.g., author, topic, or date) to make retrieval more precise.
+This reduces user query ambiguity and narrows search scope effectively.
+Steps:
+
+Parse the user's natural language question.
+Use a self-query retriever to identify metadata and construct filtered queries for the VectorDB                
+
+2. Query Translation
+Technology: HyDE (Hypothetical Document Expansion)
+Converts the user's question into a richer representation by generating hypothetical documents to aid retrieval.
+
+3. Routing
+Technology: Logical Routing
+
+4. Indexing
+Technology: Semantic Splitter
+
+5. Retrieval
+Technology: Re-ranking with CRAG   
+
+
+6. Generation
+Technology: Self-RAG
+Dynamically rewrite the query based on retrieved documents and merge information into a comprehensive answer.
+Rank retrieved documents based on relevance and coherence to the user query.
+
+
+use pinecone vector DB
+use langchain, use openai embeddings
+use open gpt4.0 model
+use stream lit for GUI for accepting user query
+Input document contains 3 types of input documents .pdf,.ppt,.doc
+Some PDF contains images, tabular data, text data ---Make effectively reading pdf data and convert into text
+
+Create python code with different python files for each task and keep it structured and proper manner.
+Maintain proper folder structure and sub files inside folder structure --share folder structure flow diagram and share architecture diagram 
+Create commercial proper end to end product
+dont use any deployment strategies as of now
+The project is structured modularly to ensure clean and maintainable code.
